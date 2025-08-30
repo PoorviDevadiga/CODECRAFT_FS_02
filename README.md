@@ -13,5 +13,5 @@ Built with **Node.js, Express, MongoDB** (backend) and **HTML, CSS, JS** (fronte
 
 ## 🛠️ Tech Stack
 **Backend:** Node.js, Express, MongoDB, JWT, bcrypt 
-**Frontend:** HTML, CSS, JavaScript (Vanilla) 
-**Database:** Local MongoDB or MongoDB Atlas
+**Frontend:** HTML, CSS, JavaScript 
+**Database:** MongoDB
