@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🚀 Employee Management System</h1>
+    <button id="logoutBtn" class="hidden">Logout</button>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="team" class="hero-img">
+      <h2>Manage Your Team with Ease</h2>
+      <p>Signup, login and keep track of employees all in one place</p>
+    </section>
+
+    <!-- Signup -->
+    <section class="card">
+      <h2>Signup</h2>
+      <input id="signupName" type="text" placeholder="Name">
+      <input id="signupEmail" type="email" placeholder="Email">
+      <input id="signupPassword" type="password" placeholder="Password">
+      <button onclick="signup()">Signup</button>
+    </section>
+
+    <!-- Login -->
+    <section class="card">
+      <h2>Login</h2>
+      <input id="loginEmail" type="email" placeholder="Email">
+      <input id="loginPassword" type="password" placeholder="Password">
+      <button onclick="login()">Login</button>
+    </section>
+
+    <!-- Add Employee -->
+    <section id="employeeActions" class="card hidden">
+      <h2>Add Employee</h2>
+      <input id="empName" type="text" placeholder="Name">
+      <input id="empEmail" type="email" placeholder="Email">
+      <input id="empPosition" type="text" placeholder="Position">
+      <input id="empSalary" type="number" placeholder="Salary">
+      <button onclick="addEmployee()">Add Employee</button>
+    </section>
+
+    <!-- Search -->
+    <section id="searchSection" class="card hidden">
+      <h2>Search Employees</h2>
+      <input id="searchInput" type="text" placeholder="Search by name or position" onkeyup="filterEmployees()">
+    </section>
+
+    <!-- Employees -->
+    <section id="employeesSection" class="card hidden">
+      <h2>Employees</h2>
+      <div id="employeesList" class="employee-grid"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

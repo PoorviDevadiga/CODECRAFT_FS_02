@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #8b794a, #b1977acb);
+  color: #ffffff;
+}
+
+header {
+  background: rgba(0,0,0,0.3);
+  backdrop-filter: blur(6px);
+  color: #ffffff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+button {
+  background: #ff7eb3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff5277;
+}
+
+.hidden {
+  display: none;
+}
+
+main {
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.hero {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero-img {
+  width: 120px;
+  margin-bottom: 10px;
+  background-color: #e5d3b3;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.hero h1 {
+  margin: 0;
+}
+
+.hero p {
+  margin: 0;
+}
+
+.form {
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(8px);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.card {
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(8px);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.employee-grid {
+  display: grid;
+  gap: 15px;
+}
+
+.employee-card {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+}
+
+.employee-card h3 {
+  margin: 0 0 5px;
+}
+
+.employee-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
