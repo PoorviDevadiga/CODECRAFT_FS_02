@@ -88,7 +88,7 @@ async function getEmployees() {
     div.innerHTML = `
       <h3>${emp.name}</h3>
       <p>${emp.email}</p>
-      <p>${emp.position} - $${emp.salary}</p>
+      <p>${emp.position} - ₹${emp.salary}</p>
       <div class="employee-actions">
         <button onclick="updateEmployee('${emp._id}')">Update</button>
         <button onclick="deleteEmployee('${emp._id}')">Delete</button>
