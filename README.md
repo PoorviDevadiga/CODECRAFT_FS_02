@@ -15,26 +15,26 @@ Built with **Node.js, Express, MongoDB** (backend) and **HTML, CSS, JS** (fronte
 CODECRAFT_FS_01/
 │
 ├── backend/                      
-│   ├── server.js                  # Express server entry point
-│   ├── package.json               # Dependencies
-│   ├── package-lock.json          # Dependency lock file
-│   ├── .env                       # Environment variables (Mongo URI, JWT secret)
+│   ├── server.js                  
+│   ├── package.json              
+│   ├── package-lock.json         
+│   ├── .env                       
 │   ├── middleware/               
-│   │   └── authMiddleware.js      # Middleware to protect routes
+│   │   └── authMiddleware.js      
 │   ├── models/                   
-│   │   ├── Employee.js            # Employee schema
-│   │   └── User.js                # User schema
+│   │   ├── Employee.js           
+│   │   └── User.js                
 │   ├── routes/                   
-│   │   ├── auth.js                # Authentication routes (login/signup)
-│   │   └── employeeRoutes.js      # Employee CRUD routes
-│   └── node_modules/              # Installed dependencies
+│   │   ├── auth.js                
+│   │   └── employeeRoutes.js     
+│   └── node_modules/              
 │
 ├── frontend/                     
-│   ├── index.html                 # Homepage / Dashboard
-│   ├── script.js                  # Frontend logic
-│   └── style.css                  # Styles
+│   ├── index.html                 
+│   ├── script.js                  
+│   └── style.css                  
 │
-└── README.md                      # Documentation 
+└── README.md                      
      
 
 ## 🛠️ Tech Stack
