@@ -13,7 +13,7 @@ Built with **Node.js, Express, MongoDB** (backend) and **HTML, CSS, JS** (fronte
 ## 📂 Project Structure
 
 CODECRAFT_FS_01/
-|
+
 │
 ├── backend/                      
 │   ├── server.js                  
